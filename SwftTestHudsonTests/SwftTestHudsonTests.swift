@@ -33,6 +33,11 @@ final class SwftTestHudsonTests: XCTestCase {
         }
     }
     
+    func testHaterStartNicely() {
+        let hater = Hater()
+        
+        XCTAssertEqual(hater.hating, false)
+    }
     
 
 }
