@@ -22,21 +22,21 @@ final class ConverterTests: XCTestCase {
     
     func test32FahrenheitIs0Celcius() {
         //Given
-        let input1 = 32.0
+        let input = 32.0
         
         //When
-        let output1 = sut.convertToCelcius(fahrenheit: input1)
+        let output = sut.convertToCelcius(fahrenheit: input)
         
         //Then
-        XCTAssertEqual(output1, 0)
+        XCTAssertEqual(output, 0)
     }
     
     func test212FahrenheitIs100Celcius() {
-        let input2 = 212.0
+        let input = 212.0
         
-        let output2 = sut.convertToCelcius(fahrenheit: input2)
+        let output = sut.convertToCelcius(fahrenheit: input)
         
-        XCTAssertEqual(output2, 100)
+        XCTAssertEqual(output, 100)
     }
 
 }
