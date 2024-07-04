@@ -10,9 +10,18 @@ import XCTest
 
 final class ConverterTests: XCTestCase {
     
+    var sut: Converter!
+    
+    override func setUp() {
+        sut = Converter()
+    }
+    
+    override func tearDown() {
+        sut = nil
+    }
+    
     func test32FahrenheitIs0Celcius() {
         //Given
-        let sut = Converter()
         let input1 = 32.0
         
         //When
@@ -23,7 +32,6 @@ final class ConverterTests: XCTestCase {
     }
     
     func test212FahrenheitIs100Celcius() {
-        let sut = Converter()
         let input2 = 212.0
         
         let output2 = sut.convertToCelcius(fahrenheit: input2)
