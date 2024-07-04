@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B0EAD7B2C352B9A00AFD88F /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0EAD7A2C352B9A00AFD88F /* Converter.swift */; };
 		6BD504642C25509100A0259B /* SwftTestHudsonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD504632C25509100A0259B /* SwftTestHudsonApp.swift */; };
 		6BD504662C25509100A0259B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD504652C25509100A0259B /* ContentView.swift */; };
 		6BD504682C25509200A0259B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD504672C25509200A0259B /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B0EAD7A2C352B9A00AFD88F /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		6BD504602C25509100A0259B /* SwftTestHudson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwftTestHudson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD504632C25509100A0259B /* SwftTestHudsonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwftTestHudsonApp.swift; sourceTree = "<group>"; };
 		6BD504652C25509100A0259B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				6BD5048D2C2550C700A0259B /* Hater.swift */,
 				6BD504672C25509200A0259B /* Assets.xcassets */,
 				6BD504692C25509200A0259B /* Preview Content */,
+				6B0EAD7A2C352B9A00AFD88F /* Converter.swift */,
 			);
 			path = SwftTestHudson;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				6BD504662C25509100A0259B /* ContentView.swift in Sources */,
 				6BD504642C25509100A0259B /* SwftTestHudsonApp.swift in Sources */,
+				6B0EAD7B2C352B9A00AFD88F /* Converter.swift in Sources */,
 				6BD5048E2C2550C700A0259B /* Hater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
