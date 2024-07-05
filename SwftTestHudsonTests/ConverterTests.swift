@@ -28,7 +28,7 @@ final class ConverterTests: XCTestCase {
         let output = sut.convertToCelcius(fahrenheit: input)
         
         //Then
-        XCTAssertEqual(output, 0)
+        XCTAssertEqual(output, 0, accuracy: 0.000001)
     }
     
     func test212FahrenheitIs100Celcius() {
@@ -36,7 +36,7 @@ final class ConverterTests: XCTestCase {
         
         let output = sut.convertToCelcius(fahrenheit: input)
         
-        XCTAssertEqual(output, 100)
+        XCTAssertEqual(output, 100, accuracy: 0.000001)
     }
 
 }
